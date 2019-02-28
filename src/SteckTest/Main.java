@@ -4,7 +4,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        MyStec<Character> stec= new MyStec<>();
+        MyStec<String> stec= new MyStec<>();
         stec.push("Юрий");
         stec.push("Виталий");
         stec.push("Михаил");

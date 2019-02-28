@@ -28,7 +28,7 @@ public class MyStec<Item>
         stack= temp;
     }
 
-    public void push(String item)
+    public void push(Item item)
     {
         if (size == stack.length)
         {
